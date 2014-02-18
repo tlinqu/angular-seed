@@ -8,5 +8,5 @@ REM - NodeJS (http://nodejs.org/)
 REM - Protractor (npm install -g protractor)
 
 set BASE_DIR=%~dp0
-webdriver-manager update
+::ebdriver-manager update
 protractor "%BASE_DIR%\..\config\protractor-conf.js" %*
